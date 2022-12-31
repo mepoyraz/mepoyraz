@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  column-gap: 30px;
+  min-height: 85px;
+  align-items: center;
+
+  .text {
+    display: flex;
+    flex-direction: column;
+
+    .name {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      color: var(--accent-color);
+      margin: 0;
+    }
+
+    .value {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: var(--text-color);
+      margin: 0;
+    }
+  }
+}

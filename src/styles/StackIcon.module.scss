@@ -1,0 +1,17 @@
+.stack {
+  display: flex;
+  padding: 9.5px;
+  border-radius: 50%;
+  border: solid 1px var(--stack-icon-border-color);
+  background-color: var(--stack-icon-background-color);
+  justify-content: center;
+  align-items: center;
+
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23px;
+    height: 23px;
+  }
+}

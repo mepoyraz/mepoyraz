@@ -1,0 +1,19 @@
+.bright {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+
+  @media screen and (max-width: 768px) {
+    opacity: 0.25;
+  }
+}
+
+.neon {
+  position: absolute;
+  top: -25px;
+  right: 0px;
+
+  @media screen and (max-width: 768px) {
+    opacity: 0.25;
+  }
+}

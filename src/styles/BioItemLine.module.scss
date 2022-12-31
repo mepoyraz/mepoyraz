@@ -1,0 +1,43 @@
+.line {
+  display: flex;
+  width: 175px;
+  height: 100%;
+
+  .left {
+    display: flex;
+    flex: 1;
+  }
+
+  .right {
+    display: flex;
+    flex: 1;
+    border-left: 1px solid var(--bio-item-border-color);
+  }
+
+  .last {
+    position: relative;
+    left: 0.5px;
+    display: flex;
+    flex: 1;
+  }
+
+  .center {
+    position: relative;
+    right: 1px;
+    display: flex;
+    flex: 1;
+    border-radius: 0px 0px 0px 20px;
+    border-left: 1px solid var(--bio-item-border-color);
+    border-bottom: 1px solid var(--bio-item-border-color);
+    height: 50%;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 60px;
+    min-width: 60px;
+
+    .left {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,163 @@
+[data-theme="light"] {
+  /** Main **/
+  --accent-color: #5D3BFE;
+  --background-color: #ffffff;
+  --text-color: #031b4e;
+
+  /** Loader **/
+  --loader-background-color: #ffffff;
+  --loader-spinner-color: rgba(3, 27, 78, 0.15);
+  --loader-spinner-primary-color: #5D3BFE;
+
+  /** Theme Toggle **/
+  --header-button-background-color: rgba(3, 27, 78, 0.025);
+
+  /** Logo **/
+  --logo-color: #031b4e;
+  --logo-primary-color: #5D3BFE;
+
+  /** Header **/
+  --header-background-color: rgba(255, 255, 255, 0.01);
+  --header-border-color: rgba(77, 91, 124, 0.1);
+
+  --link-color: #4d5b7c;
+  --link-primary-color: #5D3BFE;
+
+  /** Title **/
+  --title-container-color: #ffffff;
+  --title-color: #031b4e;
+  --title-name-color: rgba(77, 91, 124, 0.75);
+  --title-occupation-color: #5D3BFE;
+
+  /** Socials **/
+  --socials-github-color: #000000;
+
+  /** Separator **/
+  --separator-color: rgba(3, 27, 78, 0.05);
+  --separator-primary-gradient: linear-gradient(
+    180deg,
+    #5D3BFE 0%,
+    #50bae7 100%
+  );
+
+  /** Heading **/
+  --heading-title-color: #031b4e;
+  --heading-subtitle-color: #8d96ab;
+
+  /** Bio **/
+  --bio-container-border: rgba(3, 27, 78, 0.05);
+
+  --bio-name-color: #007cf0;
+  --bio-name-gradient: linear-gradient(90deg, #007cf0 0%, #00dfd8 100%);
+
+  --bio-developer-color: #7928ca;
+  --bio-developer-gradient: linear-gradient(90deg, #7928ca 0%, #ff0080 100%);
+
+  --bio-designer-color: #ff4d4d;
+  --bio-designer-gradient: linear-gradient(90deg, #ff4d4d 0%, #f9cb28 100%);
+
+  --bio-project-manager-color: #ff4d4d;
+  --bio-project-manager-gradient: linear-gradient(90deg, rgba(98,49,255,1) 0%, rgba(150,212,231,1) 72%);
+
+  /** Bio Item **/
+  --bio-item-border-color: #efefef;
+
+  /** Project Card **/
+  --project-card-border-color: rgba(3, 27, 78, 0.05);
+  --project-card-background-gradient: linear-gradient(
+    270deg,
+    rgba(3, 27, 78, 0.0125) 0%,
+    rgba(3, 27, 78, 0.025) 100%
+  );
+
+  --stack-icon-border-color: rgba(77, 91, 124, 0.1);
+  --stack-icon-background-color: rgba(77, 91, 124, 0.015);
+
+  --project-card-description-color: rgba(3, 27, 78, 0.8);
+
+  /** Footer **/
+  --footer-border-color: rgba(3, 27, 78, 0.1);
+  --footer-text-color: rgba(77, 91, 124, 0.8);
+}
+
+[data-theme="dark"] {
+  /** Background **/
+  --accent-color: #856dff;
+  --background-color: #0f0f10;
+  --text-color: #ffffff;
+
+  /** Loader **/
+  --loader-background-color: #0f0f10;
+  --loader-spinner-color: rgba(255, 255, 255, 0.15);
+  --loader-spinner-primary-color: #5D3BFE;
+
+  /** Theme Toggle **/
+  --header-button-background-color: rgba(255, 255, 255, 0.025);
+
+  /** Logo **/
+  --logo-color: #ffffff;
+  --logo-primary-color: #5D3BFE;
+
+  /** Header **/
+  --header-background-color: rgba(14, 14, 15, 0.01);
+  --header-border-color: rgba(255, 255, 255, 0.1);
+
+  --link-color: rgba(255, 255, 255, 0.8);
+  --link-primary-color: #5D3BFE;
+
+  /** Title **/
+  --title-container-color: #0f0f10;
+  --title-color: #ffffff;
+  --title-name-color: rgba(255, 255, 255, 0.5);
+  --title-occupation-color: #5D3BFE;
+
+  --bio-project-manager-color: #ff4d4d;
+  --bio-project-manager-gradient: linear-gradient(90deg, rgba(98,49,255,1) 0%, rgba(150,212,231,1) 72%);
+
+  /** Socials **/
+  --socials-github-color: #ffffff;
+
+  /** Separator **/
+  --separator-color: rgba(255, 255, 255, 0.05);
+  --separator-primary-gradient: linear-gradient(
+    180deg,
+    #64efd7 0%,
+    #9ffba2 100%
+  );
+
+  /** Heading **/
+  --heading-title-color: #ffffff;
+  --heading-subtitle-color: #a1a0ab;
+
+  /** Bio **/
+  --bio-container-border: rgba(255, 255, 255, 0.05);
+
+  --bio-name-color: #007cf0;
+  --bio-name-gradient: linear-gradient(90deg, #007cf0 0%, #00dfd8 100%);
+
+  --bio-developer-color: #7928ca;
+  --bio-developer-gradient: linear-gradient(90deg, #7928ca 0%, #ff0080 100%);
+
+  --bio-designer-color: #ff4d4d;
+  --bio-designer-gradient: linear-gradient(90deg, #ff4d4d 0%, #f9cb28 100%);
+
+  /** Bio Item **/
+  --bio-item-border-color: #272728;
+
+  /** Project Card **/
+  --project-card-border-color: rgba(255, 255, 255, 0.05);
+  --project-card-background-gradient: linear-gradient(
+    270deg,
+    rgba(255, 244, 244, 0.0125) 0%,
+    rgba(255, 255, 255, 0.025) 100%
+  );
+
+  --stack-icon-border-color: #202329;
+  --stack-icon-background-color: rgba(32, 35, 41, 0.15);
+
+  --project-card-description-color: #a1a0ab;
+
+  /** Footer **/
+  --footer-border-color: rgba(255, 255, 255, 0.1);
+  --footer-text-color: rgba(255, 255, 255, 0.5);
+}

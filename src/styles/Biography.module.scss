@@ -1,0 +1,36 @@
+.biography {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 85px;
+  max-width: 1140px;
+  width: 100%;
+  padding: 20px;
+
+  .container {
+    display: flex;
+    width: 100%;
+    padding: 90px;
+    justify-content: center;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid var(--bio-container-border);
+
+    .bio {
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 30px;
+
+      .bio {
+        row-gap: 10px;
+      }
+    }
+  }
+}

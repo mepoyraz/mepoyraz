@@ -1,0 +1,40 @@
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 14px 22px;
+  gap: 5px;
+  background: linear-gradient(90deg, #d32531 0%, #f2433b 100%);
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.github {
+  background: var(--socials-github-color);
+  padding: 14px 14px;
+}
+
+.uncos {
+  background: linear-gradient(90deg, #d32531 0%, #f2433b 100%);
+}
+
+.pizza {
+  background: linear-gradient(90deg, #de531c 0%, #ff7a45 100%);
+}
+
+.xanity {
+  background: linear-gradient(90deg, #603aff 0%, #7e60ff 100%);
+}
+
+.schedule {
+  background: linear-gradient(90deg, #1762D3 0%, #4791FF 100%);
+}

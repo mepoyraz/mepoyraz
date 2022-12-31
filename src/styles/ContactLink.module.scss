@@ -1,0 +1,70 @@
+.link {
+  .contact {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    border: 1px solid var(--project-card-border-color);
+    border-radius: 8px;
+    padding: 14px 20px;
+    transition: 0.1s;
+
+    .icon {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.2s;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      p {
+        margin: 0;
+      }
+
+      .title {
+        color: var(--text-color);
+        opacity: 0.5;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+      }
+
+      .value {
+        font-family: ui-rounded, Nunito, -apple-system, BlinkMacSystemFont,
+          Inter, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+          Droid Sans, Helvetica Neue, sans-serif;
+        font-style: normal;
+        color: var(--text-color);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+      }
+    }
+
+    &:hover {
+      transition: 0.1s;
+      border-color: var(--footer-border-color);
+
+      .icon {
+        transition: 0.2s;
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    display: flex;
+    flex: 1;
+
+    .contact {
+      flex: 1;
+    }
+  }
+}
