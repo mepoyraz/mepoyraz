@@ -52,9 +52,7 @@ const Contacts: FC = () => {
         <div className="col-md-6 mb-4">
 
           <h1><b>İletişim</b></h1>
-          Birlikte çalışmak, sohbet etmek, davet etmek ve iş teklif etmek için buraya yazabilir, arayabilir veya e-posta gönderebilirsiniz. <br /> <br />
-
-          Buraya göndereceğiniz mesajlar otomatik olarak e-posta adresime gönderilmektedir. Gün içinde veya ertesi gün döneceğim. <br />
+          Birlikte çalışmak, sohbet etmek, davet etmek ve iş teklif etmek için arayabilir veya e-posta gönderebilirsiniz. <br /> <br />
 
           <div className="text-end">
             <Image
